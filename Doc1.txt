@@ -1,0 +1,25 @@
+package git;
+
+import java.util.Scanner;
+
+public class Suma {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Introduzca el primer número: ");
+		Double primerNum = Double.parseDouble(scanner.nextLine());
+		System.out.println("Introduzca el segundo número: ");
+		Double segundoNum = Double.parseDouble(scanner.nextLine());
+		scanner.close();
+
+                		
+                double suma= primerNum + segundoNum;
+		System.out.print("La suma es: " + suma);
+		if (suma%2==0) {
+			System.out.println("El número " + suma + " es par");
+		}else 
+			System.out.println("El número " + suma + " es impar");
+
+	}
+}
