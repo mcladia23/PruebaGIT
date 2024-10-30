@@ -15,3 +15,5 @@ git add fichero
 git commit -m "Comentario sobre el commit"
 git push
 ```
+
+![IMAGEN](https://i.pinimg.com/originals/48/c0/26/48c0264b53310a9b2c63eada0c6cf2d7.jpg)
